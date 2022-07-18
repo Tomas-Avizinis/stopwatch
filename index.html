@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stopwatch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    <script src="stopwatch.js" defer></script>
+    
+
+    <title>Stopwatch</title>
+</head>
+<body>
+    <header>
+        <h1>Stopwatch</h1>
+    </header>
+    <main class="flex-col gap">
+        
+        <div class="clock flex-col">
+            <div class="flex-col">
+                <div class="timer-label"></div>
+            </div>
+            <div class="timer-numbers">
+                <div class="timer1"></div>
+                <div class="timer2"></div>
+            </div>
+        </div>
+
+        <div class="flex gap">
+            <button class="start">Start count</button>
+            <button class="pause">Pause</button>
+            <button class="resume">Resume count</button>
+            <button class="lap">New Lap</button>
+            <button class="reset">Reset All</button>
+        </div>
+
+        
+        <div class="laps"></div>
+        
+        
+    </main>
+
+</body>
+</html>
