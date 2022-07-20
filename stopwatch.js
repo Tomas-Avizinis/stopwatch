@@ -171,21 +171,21 @@ function removeLaps() {
     lapsView.querySelectorAll('.lap-record').forEach (node => node.remove());
 }
 
-function reset() {
-    startTime = 0;
-    time = 0;
-    pauseStart = 0;
-    pausedTime = 0;
-    countOn = false;
-    laps.length = 0;
-    pauseBtn.classList.add('hidden');
-    resumeBtn.classList.add('hidden');
-    resetBtn.classList.add('hidden');
-    lapBtn.classList.add('hidden');
-    startBtn.classList.remove('hidden');
-    removeSecondsDots();
-    removeLaps();
-}
+// function reset() {
+//     startTime = 0;
+//     time = 0;
+//     pauseStart = 0;
+//     pausedTime = 0;
+//     countOn = false;
+//     laps.length = 0;
+//     pauseBtn.classList.add('hidden');
+//     resumeBtn.classList.add('hidden');
+//     resetBtn.classList.add('hidden');
+//     lapBtn.classList.add('hidden');
+//     startBtn.classList.remove('hidden');
+//     removeSecondsDots();
+//     removeLaps();
+// }
 
 clock.addEventListener('click', () => {
     if (countOn) pause()
