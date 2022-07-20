@@ -193,5 +193,4 @@ clock.addEventListener('click', () => {
 });
 
 
-//pakeitimai
-//pakeitimai2 - update
+//pakeitimai3 - padaryti online githube
