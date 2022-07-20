@@ -195,4 +195,3 @@ clock.addEventListener('click', () => {
 
 //pakeitimai3 - padaryti online githube
 
-//parasysius nesmaonele
