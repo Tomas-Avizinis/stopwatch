@@ -195,3 +195,4 @@ clock.addEventListener('click', () => {
 
 
 //pakeitimai
+//pakeitimai2 - update
