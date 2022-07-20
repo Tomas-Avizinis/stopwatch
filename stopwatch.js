@@ -170,7 +170,6 @@ function removeLaps() {
     laps.length = 0;
     lapsView.querySelectorAll('.lap-record').forEach (node => node.remove());
 }
-//naujas
 function reset() {
     startTime = 0;
     time = 0;
