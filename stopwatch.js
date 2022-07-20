@@ -192,3 +192,6 @@ clock.addEventListener('click', () => {
     else if (pauseStart !== 0) resume();
     else start()
 });
+
+
+//pakeitimai
