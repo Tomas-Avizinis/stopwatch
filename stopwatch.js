@@ -195,3 +195,4 @@ clock.addEventListener('click', () => {
 
 //pakeitimai3 - padaryti online githube
 //testuoju dar viena atnaujinima pakeitimai4
+
