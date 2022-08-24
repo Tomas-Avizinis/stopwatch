@@ -71,8 +71,8 @@ function drawSecondsDots(time) {
     bar.append(dotContainer);
     dotContainer.append(dot);
     if (seconds % 5 === 0) {
-        dot.style.width = '12px';
-
+        dot.style.backgroundColor = 'white';
+        dot.style.borderRadius = '50%';
     }
 
     if (clock.querySelectorAll('.bar').length > 50) {

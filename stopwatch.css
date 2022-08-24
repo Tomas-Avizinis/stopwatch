@@ -111,11 +111,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3px;
 }
 .dot {
     width: 3px;
     height: 5px;
-    border-radius: 0 2px 2px 0;
+    /* border-radius: 0 2px 2px 0; */
+    background-color: yellowgreen;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    /* border: 1px solid darkkhaki; */
     background-color: yellowgreen;
 }
 
