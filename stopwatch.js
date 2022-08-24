@@ -193,6 +193,5 @@ clock.addEventListener('click', () => {
 });
 
 
-//pakeitimai3 - padaryti online githube
-//testuoju dar viena atnaujinima pakeitimai4
+//last changes 2022-08-24
 
